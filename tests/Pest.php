@@ -1,5 +1,5 @@
 <?php
 
-use Saade\FilamentFullCalendar\Tests\TestCase;
+use Alltrons\FilamentFullCalendar\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

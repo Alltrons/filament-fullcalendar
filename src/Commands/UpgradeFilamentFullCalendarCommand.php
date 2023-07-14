@@ -1,6 +1,6 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Commands;
+namespace Alltrons\FilamentFullCalendar\Commands;
 
 use Illuminate\Console\Command;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Widgets\Forms;
+namespace Alltrons\FilamentFullCalendar\Widgets\Forms;
 
 use Filament\Forms;
 

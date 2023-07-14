@@ -1,9 +1,9 @@
 <?php
 
-namespace Saade\FilamentFullCalendar;
+namespace Alltrons\FilamentFullCalendar;
 
 use Filament\PluginServiceProvider;
-use Saade\FilamentFullCalendar\Commands\UpgradeFilamentFullCalendarCommand;
+use Alltrons\FilamentFullCalendar\Commands\UpgradeFilamentFullCalendarCommand;
 use Spatie\LaravelPackageTools\Package;
 
 class FilamentFullCalendarServiceProvider extends PluginServiceProvider

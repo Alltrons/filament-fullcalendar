@@ -1,11 +1,11 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Facades;
+namespace Alltrons\FilamentFullCalendar\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Saade\FilamentFullCalendar\FilamentFullCalendar
+ * @see \Alltrons\FilamentFullCalendar\FilamentFullCalendar
  */
 class FilamentFullCalendar extends Facade
 {

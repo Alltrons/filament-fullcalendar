@@ -1,10 +1,10 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Tests;
+namespace Alltrons\FilamentFullCalendar\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Saade\FilamentFullCalendar\FilamentFullCalendarServiceProvider;
+use Alltrons\FilamentFullCalendar\FilamentFullCalendarServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Saade\\FilamentFullCalendar\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Alltrons\\FilamentFullCalendar\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

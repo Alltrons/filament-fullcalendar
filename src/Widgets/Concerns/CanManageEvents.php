@@ -1,14 +1,14 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Widgets\Concerns;
+namespace Alltrons\FilamentFullCalendar\Widgets\Concerns;
 
 use Closure;
 use Filament\Forms\ComponentContainer;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
-use Saade\FilamentFullCalendar\Widgets\Forms\CreateEventForm;
-use Saade\FilamentFullCalendar\Widgets\Forms\EditEventForm;
-use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
+use Alltrons\FilamentFullCalendar\Widgets\Forms\CreateEventForm;
+use Alltrons\FilamentFullCalendar\Widgets\Forms\EditEventForm;
+use Alltrons\FilamentFullCalendar\Widgets\FullCalendarWidget;
 
 /**
  * @property ComponentContainer $createEventForm

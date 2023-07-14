@@ -1,6 +1,6 @@
 <?php
 
-namespace Saade\FilamentFullCalendar;
+namespace Alltrons\FilamentFullCalendar;
 
 class FilamentFullCalendar
 {

@@ -70,7 +70,7 @@ php artisan make:filament-widget CalendarWidget
 
 <br>
 
-2. Your newly created widget should extends the `Saade\FilamentFullCalendar\Widgets\FullCalendarWidget` class of this package
+2. Your newly created widget should extends the `Alltrons\FilamentFullCalendar\Widgets\FullCalendarWidget` class of this package
 
 > **Warning**
 >
@@ -81,7 +81,7 @@ php artisan make:filament-widget CalendarWidget
 
 namespace App\Filament\Widgets;
 
-use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
+use Alltrons\FilamentFullCalendar\Widgets\FullCalendarWidget;
 
 class CalendarWidget extends FullCalendarWidget
 {

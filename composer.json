@@ -1,9 +1,7 @@
 {
-    "name": "saade/filament-fullcalendar",
-    "description": "The Most Popular JavaScript Calendar integrated with Filament 💛",
+    "name": "alltrons/filament-fullcalendar",
+    "description": "Customised version of Filament fullcalendar",
     "keywords": [
-        "saade",
-        "laravel",
         "filament-fullcalendar"
     ],
     "homepage": "https://github.com/saade/filament-fullcalendar",
@@ -35,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Saade\\FilamentFullCalendar\\": "src"
+            "Alltrons\\FilamentFullCalendar\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Saade\\FilamentFullCalendar\\Tests\\": "tests"
+            "Alltrons\\FilamentFullCalendar\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -58,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Saade\\FilamentFullCalendar\\FilamentFullCalendarServiceProvider"
+                "Alltrons\\FilamentFullCalendar\\FilamentFullCalendarServiceProvider"
             ],
             "aliases": {
-                "FilamentFullCalendar": "Saade\\FilamentFullCalendar\\Facades\\FilamentFullCalendar"
+                "FilamentFullCalendar": "Alltrons\\FilamentFullCalendar\\Facades\\FilamentFullCalendar"
             }
         }
     },

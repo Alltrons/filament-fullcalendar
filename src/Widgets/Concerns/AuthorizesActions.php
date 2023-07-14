@@ -1,6 +1,6 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Widgets\Concerns;
+namespace Alltrons\FilamentFullCalendar\Widgets\Concerns;
 
 trait AuthorizesActions
 {
