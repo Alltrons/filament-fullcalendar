@@ -70,6 +70,9 @@
                     event.detail.data.map(event => $data.calendar.addEvent(event));
                 @endif
             "
+            x-on:filament-fullcalendar--set-option.window="
+                $data.calendar.setOption(event.detail.option, event.detail.days)
+            "
             class="filament-fullcalendar--calendar"
         ></div>
     </x-filament::card>
