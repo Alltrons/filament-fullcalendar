@@ -12,7 +12,7 @@
                 events: {{ json_encode($events) }},
                 eventContent: function(info) {
                     return { html: info.event.title }
-                }
+                },
                 initialView: @js($this->config('initialView')),
                 initialDate: @js($this->config('initialDate')),
                 shouldSaveState: @js($this->config('saveState', false)),
