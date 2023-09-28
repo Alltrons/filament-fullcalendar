@@ -3,3 +3,9 @@
 .fc-timegrid-slot {
     height: 50px !important;
 }
+
+.fc-daygrid-event .fc-event-main .fc-event-title-container {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
